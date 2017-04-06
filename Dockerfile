@@ -1,4 +1,4 @@
-FROM phusion/baseimage:0.9.19
+FROM phusion/baseimage:0.9.20
 MAINTAINER Pro Football Focus <devops@profootballfocus.com>
 LABEL org.label-schema.vcs-url="https://github.com/pro-football-focus/docker-php"
 ENV REFRESHED_AT 2016-11-08
