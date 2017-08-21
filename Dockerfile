@@ -1,7 +1,7 @@
 FROM phusion/baseimage:0.9.20
 MAINTAINER Pro Football Focus <devops@profootballfocus.com>
 LABEL org.label-schema.vcs-url="https://github.com/pro-football-focus/docker-php"
-ENV REFRESHED_AT 2016-11-08
+ENV REFRESHED_AT 2017-08-21
 
 # Setup the environment
 RUN ln -fs /usr/share/zoneinfo/America/New_York /etc/localtime
