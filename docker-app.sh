@@ -9,8 +9,8 @@ else
 fi
 
 # Output Version
-if [[ -f "version" ]]; then
-  VERSION=$(cat version)
+if [[ -f "/var/www/html/version" ]]; then
+  VERSION=$(cat /var/www/html/version)
   echo "---- VERSION: ${VERSION} ----"
 fi
 
