@@ -25,7 +25,7 @@ WORKDIR /tmp
 # Install required packages (includes Apache 2.4 + PHP 5.6)
 RUN add-apt-repository ppa:ondrej/php -y && \
     apt-get update && \
-    apt-get install --no-install-recommends -y apache2 php5.6 php5.6-redis php5.6-mysql php5.6-mbstring libapache2-mod-php5.6 php5.6-memcache php5.6-xml php5.6-mcrypt php5.6-gd php5.6-bz2 php5.6-zip php5.6-curl && \
+    apt-get install --no-install-recommends -y apache2 php5.6 php5.6-redis php5.6-pgsql php5.6-mbstring libapache2-mod-php5.6 php5.6-xml php5.6-mcrypt php5.6-gd php5.6-bz2 php5.6-zip php5.6-curl && \
     apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 # Configure Apache
